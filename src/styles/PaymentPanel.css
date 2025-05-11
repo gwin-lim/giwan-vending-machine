@@ -1,0 +1,271 @@
+.payment-panel {
+  background-color: white;
+
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.payment-panel h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* 결제 방법 선택 */
+.payment-method-selection {
+  background-color: #f9f9f9;
+
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 2px solid #3498db;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.payment-methods {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.payment-method-btn {
+  flex: 1;
+  padding: 15px;
+  border: none;
+
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cash-btn {
+  background-color: #3498db;
+  color: white;
+}
+
+.cash-btn:hover {
+  background-color: #2980b9;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-btn {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.card-btn:hover {
+  background-color: #27ae60;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* 현금 결제 */
+.cash-options {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.status-panel {
+  flex: 0.3;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-left: 1px solid #ccc;
+}
+
+.status-panel h2,
+.status-panel h3 {
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.cash-holdings {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 2px;
+}
+
+.card-limits,
+.cash-holding-item {
+  font-size: 0.85rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cash-count {
+  font-weight: bold;
+  color: #333;
+}
+
+.cash-option-btn {
+  padding: 8px;
+  border: 1px solid #ddd;
+
+  background-color: #f8f8f8;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cash-option-btn:hover:not(:disabled) {
+  background-color: #eee;
+}
+
+.cash-option-btn.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.cash-count-badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: #3498db;
+  color: white;
+  font-size: 0.7rem;
+  width: 20px;
+  height: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.payment-actions {
+  margin-top: 15px;
+}
+
+.payment-amount,
+.payment-required {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+}
+
+.amount-value {
+  font-weight: bold;
+}
+
+/* 카드 결제 */
+.card-payment {
+  margin-bottom: 15px;
+}
+
+.card-limit-info {
+  background-color: #f5f5f5;
+
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.card-limit-display,
+.purchase-amount {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.card-limit-value {
+  font-weight: bold;
+  color: #2ecc71;
+}
+
+.purchase-amount-value {
+  font-weight: bold;
+  color: #333;
+}
+
+.card-limit-warning {
+  margin-top: 8px;
+  color: #e74c3c;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgba(231, 76, 60, 0.1);
+  padding: 5px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.form-group input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+
+  font-size: 1rem;
+}
+
+/* 버튼 스타일 */
+.confirm-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.confirm-btn:hover:not(:disabled) {
+  background-color: #45a049;
+}
+
+.confirm-btn:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.cancel-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.2s;
+}
+
+.cancel-btn:hover {
+  background-color: #c0392b;
+}
+
+/* 오류 메시지 스타일 */
+.error-message {
+  background-color: #ffeeee;
+  border: 1px solid #e74c3c;
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.error-message p {
+  color: #e74c3c;
+  font-weight: bold;
+  margin: 0;
+}

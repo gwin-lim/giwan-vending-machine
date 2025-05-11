@@ -1,0 +1,177 @@
+.display-panel {
+  margin-bottom: 20px;
+}
+
+.display-screen {
+  background-color: #1a1a1a;
+  color: #33ff33;
+  padding: 15px;
+  font-family: 'Courier New', monospace;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.display-status {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #444;
+}
+
+.status-label,
+.product-label {
+  color: #aaa;
+}
+
+/* 선택된 상품 목록 */
+.selected-products {
+  margin-bottom: 15px;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+
+.selected-products-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #444;
+}
+
+.total-amount {
+  text-align: right;
+  font-weight: bold;
+  color: #ffff33;
+}
+
+.selected-products-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.selected-product-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.selected-product-label,
+.selected-product-name {
+  text-align: left;
+}
+
+.selected-product-price {
+  text-align: right;
+}
+
+.payment-info {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.payment-info > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.transaction-success {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.success-animation {
+  font-size: 2rem;
+  color: #4caf50;
+  margin-bottom: 10px;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* 배출된 상품 목록 */
+.dispensed-products {
+  margin: 10px 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 8px;
+}
+
+.dispensed-products-header {
+  margin-bottom: 5px;
+  color: #aaffaa;
+  font-weight: bold;
+}
+
+.dispensed-products-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.dispensed-product-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.change-info {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 8px;
+}
+
+.change-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #aaffaa;
+}
+
+.change-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.change-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.change-type {
+  color: #aaa;
+}
+
+.change-count {
+  font-weight: bold;
+}
+
+.display-message {
+  margin-top: auto;
+  padding-top: 10px;
+  border-top: 1px solid #444;
+  font-weight: bold;
+}
+
+/* 상태에 따른 스타일 */
+.status-error {
+  color: #ff3333;
+}
+
+.status-success {
+  color: #33ff33;
+}

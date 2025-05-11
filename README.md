@@ -100,8 +100,8 @@ src/
   │   ├── DisplayPanel.css
   │   ├── index.css
   │   ├── ProductSelection.css
-  │   └── PaymentPanel.css
-  │   ├── VendingMachine.css
+  │   ├── PaymentPanel.css
+  │   └── VendingMachine.css
   ├── App.tsx                       # 애플리케이션 컴포넌트
   └── main.tsx                      # 애플리케이션 엔트리 포인트
 ```

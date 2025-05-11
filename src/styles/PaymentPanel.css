@@ -96,7 +96,20 @@
 .cash-holding-item {
   font-size: 0.85rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
+  gap: 4px;
+}
+
+@media screen and (max-width: 768px) {
+  .status-panel {
+    border-left: 0;
+    border-top: 1px solid #ccc;
+  }
+
+  .card-limits,
+  .cash-holding-item {
+    justify-self: center;
+  }
 }
 
 .cash-count {

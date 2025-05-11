@@ -45,12 +45,22 @@
   display: flex;
   justify-content: space-between;
   color: gray;
+  text-align: center;
 }
 
 .simulation-panel label {
   display: flex;
   align-items: center;
   cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .simulation-panel {
+    flex-direction: column;
+  }
+  .simulation-panel label {
+    justify-content: center;
+  }
 }
 
 .simulation-panel input[type='checkbox'] {

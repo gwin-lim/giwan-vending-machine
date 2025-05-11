@@ -85,10 +85,10 @@ stateDiagram-v2
 ```
 src/
   ├── components/                   # 리액트 컴포넌트
-  │   ├── VendingMachine.tsx        # 자판기 메인 컴포넌트
-  │   ├── ProductSelection.tsx      # 상품 선택 컴포넌트
   │   ├── DisplayPanel.tsx          # 디스플레이 패널 컴포넌트
-  │   └── PaymentPanel.tsx          # 결제 패널 컴포넌트
+  │   ├── PaymentPanel.tsx          # 결제 패널 컴포넌트
+  │   ├── ProductSelection.tsx      # 상품 선택 컴포넌트
+  │   └── VendingMachine.tsx        # 자판기 메인 컴포넌트
   ├── models/                       # 타입 정의 및 인터페이스
   │   ├── Product.ts                # 상품 모델
   │   ├── Payment.ts                # 결제 모델
@@ -103,7 +103,7 @@ src/
   │   └── PaymentPanel.css
   │   ├── VendingMachine.css
   ├── App.tsx                       # 애플리케이션 컴포넌트
-  └── main.tsx                     # 애플리케이션 엔트리 포인트
+  └── main.tsx                      # 애플리케이션 엔트리 포인트
 ```
 
 ## 기능

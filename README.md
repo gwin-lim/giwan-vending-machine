@@ -9,6 +9,8 @@
 ## 자판기 상태 흐름도
 
 자판기의 코어 로직 다이어그램입니다.
+이 다이어그램으 mermaid로 작성되었습니다.
+추출된 png 이미지 파일은 [여기](./giwan-vending-machine-state-diagram.png) 입니다.
 
 ```mermaid
 stateDiagram-v2

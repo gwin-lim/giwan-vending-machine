@@ -1,10 +1,14 @@
 # Giwan Vending Machine 자판기 시뮬레이션 웹 앱
 
-![GitHub release](https://img.shields.io/github/release/gwin-lim/giwan-vending-machine.svg)
-
 이 프로젝트는 사용자가 자판기에서 음료를 선택하고 결제하는 과정을 시뮬레이션 할 수 있는 웹 애플리케이션입니다.
 
-## 자판기 상태 흐름 개요
+## 현재 버전
+
+![GitHub release](https://img.shields.io/github/release/gwin-lim/giwan-vending-machine.svg)
+
+## 자판기 상태 흐름도
+
+ui 인터랙션 로직을 제외한 자판기의 코어 로직 다이어그램입니다.
 
 ```mermaid
 stateDiagram-v2

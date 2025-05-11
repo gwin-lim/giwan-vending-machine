@@ -2,6 +2,10 @@
 
 이 프로젝트는 사용자가 자판기에서 음료를 선택하고 결제하는 과정을 시뮬레이션 할 수 있는 웹 애플리케이션입니다.
 
+## Live Demo
+
+[https://giwan-vending-machine.vercel.app/](https://giwan-vending-machine.vercel.app/)
+
 ## 현재 버전
 
 ![GitHub tag](https://img.shields.io/github/v/tag/gwin-lim/giwan-vending-machine.svg)
@@ -10,7 +14,7 @@
 
 자판기의 코어 로직 다이어그램입니다.
 이 다이어그램으 mermaid로 작성되었습니다.
-추출된 png 이미지 파일은 [여기](./giwan-vending-machine-state-diagram.png) 입니다.
+추출된 png 이미지 파일은 [./giwan-vending-machine-state-diagram.png](./giwan-vending-machine-state-diagram.png) 입니다.
 
 ```mermaid
 stateDiagram-v2

@@ -4,7 +4,7 @@
 
 ## 현재 버전
 
-![GitHub release](https://img.shields.io/github/release/gwin-lim/giwan-vending-machine.svg)
+![GitHub tag](https://img.shields.io/github/v/tag/gwin-lim/giwan-vending-machine.svg)
 
 ## 자판기 상태 흐름도
 
